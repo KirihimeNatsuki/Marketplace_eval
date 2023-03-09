@@ -19,8 +19,8 @@ Smart_contract_adress : 0x60671f198f97d352c3a99a800bdf7a6a51e8df59f6586df6afc998
 
 Create a .env file like this : 
 
-    ```API_KEY_ALCHEMY_MUMBAI= YOUR ALCHEMY MUMBAI API KEY
-       PASS_PHRASE= YOUR METAMASK PASS_PHRASE```
+       API_KEY_ALCHEMY_MUMBAI= YOUR ALCHEMY MUMBAI API KEY
+       PASS_PHRASE= YOUR METAMASK PASS_PHRASE
  
 # How to use :
 
@@ -37,10 +37,10 @@ To use for example a different blockchain like goerli, you can decoment the goer
 
 After that you can add a new variable in both `truffle-config.js` and your .env file like this :
 
-  In .env:
-    - API_KEY_ALCHEMY_GOERLI= YOUR ALCHEMY GOERLI API KEY
+  In .env :
+    - ``API_KEY_ALCHEMY_GOERLI= YOUR ALCHEMY GOERLI API KEY``
 
   In `truffle-config.js`:
-    - ```const API_KEY_ALCHEMY_GOERLI = process.env["API_KEY_ALCHEMY_GOERLI"];```
+    - ```const API_KEY_ALCHEMY_GOERLI= process.env["API_KEY_ALCHEMY_GOERLI"];```
 
 ###### Made by KirihimeNatsuki alias Enzo by ❤️.
